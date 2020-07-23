@@ -62,12 +62,12 @@ def download_data_realtime(run_time, **kwargs):
         else:
             print("Data already exists locally.")
 
-    print("Merging original .grib2 files...")
-    arg = "cdo mergetime %s/*.grib2 %s/RAP.grib2" % (data_path, data_path)
-    subprocess.call(arg, shell=True)
+    #print("Merging original .grib2 files...")
+    #arg = "cdo mergetime %s/*.grib2 %s/RAP.grib2" % (data_path, data_path)
+    #subprocess.call(arg, shell=True)
 
-    arg = "rm %s/rap.t*" % (data_path)
-    subprocess.call(arg, shell=True)
+    #arg = "rm %s/rap.t*" % (data_path)
+    #subprocess.call(arg, shell=True)
     return data_path
 
 

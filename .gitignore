@@ -1,3 +1,7 @@
 .DS_Store
 __pycache__/
 data/
+utils/__pycache__/
+utils/.DS_Store
+sharptab/__pycache__/
+sharptab/.DS_Store
